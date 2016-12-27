@@ -1,4 +1,4 @@
-a function moveHands() {
+function moveHands() {
       with(new Date()) {
           h = 30 * (getHours() % 12 + getMinutes() / 60); // 30 degrees hour
           m = 6 * getMinutes(); // 6 degrees every minute
